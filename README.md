@@ -99,22 +99,6 @@ alice
 
 | 协议 | 匹配条件 | 回源端口 |
 |------|----------|----------|
-| VLESS | Host=`your.domain` AND URI Path contains `/vless` | 50000 |
-| Trojan | Host=`your.domain` AND URI Path contains `/trojan` | 59999 |
-
----
-
-## 📝 更新日志
-
-- **v1.0** - 初始版本
-  - 支持 VLESS / Trojan / Shadowsocks 协议
-  - 8 个 SOCKS5 出口分流
-  - 自签名证书支持
-  - 多协议共存
-
----
-
-## 📜 License
-
-MIT License
+| VLESS | Host=`your.domain` AND URI Path contains `/vless` | 端口 |
+| Trojan | Host=`your.domain` AND URI Path contains `/trojan` | 端口 |
 
