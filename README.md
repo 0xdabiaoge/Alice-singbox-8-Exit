@@ -16,7 +16,7 @@
 
 ## 📥 一键安装
 
-### 🚀 加速源版（推荐国内使用）
+### 🚀 加速源版（推荐无IPV4使用）
 
 ```bash
 curl -fsSL https://ghfile.geekertao.top/https://raw.githubusercontent.com/0xdabiaoge/Alice-singbox-8-Exit/main/alice-singbox.sh -o /usr/local/bin/alice && chmod +x /usr/local/bin/alice && alice
@@ -117,3 +117,4 @@ alice
 ## 📜 License
 
 MIT License
+
