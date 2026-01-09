@@ -99,6 +99,7 @@ alice
 
 | 协议 | 匹配条件 | 回源端口 |
 |------|----------|----------|
-| VLESS | Host=`your.domain` AND URI Path contains `/vless` | 端口 |
-| Trojan | Host=`your.domain` AND URI Path contains `/trojan` | 端口 |
+| VLESS | 主机名=`your.domain` AND URI Path contains `/vless` | 端口 |
+| Trojan | 主机名=`your.domain` AND URI Path contains `/trojan` | 端口 |
+
 
